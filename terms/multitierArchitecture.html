@@ -2,30 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TERM NAME</title>
+    <title>Multitier Architecture</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
 <div class="container">
-    <h1>TERM NAME</h1>
+    <h1>Multitier Architecture</h1>
 
-    <img src="../images/your-image.jpg" alt="TERM image">
+    <img src="../images/intranet.jpg" alt="Intranet image">
 
     <p><strong>Definition:</strong>
-        WRITE YOUR DEFINITION HERE
+        
+        A multi-tier architecture is a software design pattern where an application is broken down into distinct logical and physical computing tiers. Each tier functions as an independent module, responsible for a specific part of the system's execution.
     </p>
 
     <h2>Examples</h2>
     <ul>
-        <li>Example 1</li>
-        <li>Example 2</li>
-        <li>Example 3</li>
+        <li>E-commerce platform</li>
+        <li>Online banking system</li>
+        <li>University management system</li>
     </ul>
 
     <h2>How it Works</h2>
     <p>
-        EXPLAIN HOW IT WORKS HERE
+        A multi-tier architecture, commonly structured as a three-tier model, works by decoupling an application into distinct layers—the presentation, application, and data tiers—to process user requests securely and efficiently. When a user interacts with the user interface in the presentation tier, it sends a request to the application tier, which acts as the "brain" to process business rules and construct necessary database queries. This middle tier then communicates with the data tier via a secure data access layer to retrieve or update the required information without the client ever interacting directly with the database. After the database processes the query and returns the raw data, the application tier formats it and sends it back to the presentation tier to display the result on the user's screen.
     </p>
 
     <a class="back-btn" href="../index.html">← Back to Home</a>
